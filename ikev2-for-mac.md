@@ -15,7 +15,7 @@ This guide walks through setting up an **IKEv2 VPN server** on an **Ubuntu serve
 Update and install strongSwan:
 ```bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y strongswan strongswan-pki libcharon-extra-plugins libcharon-extauth-plugins
+sudo apt install -y strongswan strongswan-pki libstrongswan-extra-plugins
 ```
 
 ---
